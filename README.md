@@ -2,6 +2,18 @@
 
 ## Installation
 
+### Create Project Folder
+
+Create a folder named `{uid}-2b-{firstName}-{lastName}` and navigate into it before following the steps below.
+
+### Create Next.js App
+
+To create the 2b experiment project:
+
+```bash
+pnpm create next-app@latest .
+```
+
 ### Install Shadcn Components
 
 To install the required Shadcn UI components (card, button, and select):
@@ -84,10 +96,9 @@ The main application page with product filtering and sorting:
 
 ### Technology Stack
 
-- **Framework**: Next.js 16+ (App Router with "use client")
+- **Framework**: Next.js 14+ (App Router with "use client")
 - **UI Library**: Shadcn UI
 - **Styling**: Tailwind CSS
 - **Language**: TypeScript
 - **State Management**: React useState hooks
-
 
