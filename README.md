@@ -1,26 +1,59 @@
 # 2b Project
 
+## Project Structure
+
+```
+2b/
+├── app/
+│   ├── globals.css          # Global styles
+│   ├── layout.tsx           # Root layout component
+│   └── page.tsx             # Main homepage with product filtering
+├── components/
+│   ├── ui/                  # Shadcn UI components
+│   │   ├── badge.tsx
+│   │   ├── card.tsx
+│   │   └── select.tsx
+│   ├── product-card.tsx     # Product display card component
+│   └── select-control.tsx   # Reusable select dropdown component
+├── lib/
+│   └── utils.ts             # Utility functions
+├── public/                  # Static assets
+├── types/
+│   └── index.ts             # TypeScript type definitions
+├── components.json          # Shadcn UI configuration
+├── eslint.config.mjs        # ESLint configuration
+├── next.config.ts           # Next.js configuration
+├── package.json             # Project dependencies
+├── pnpm-lock.yaml           # Lock file
+├── pnpm-workspace.yaml      # pnpm workspace config
+├── postcss.config.mjs       # PostCSS configuration
+├── tsconfig.json            # TypeScript configuration
+└── README.md                # Project documentation
+```
+
 ## Installation
 
-### Create Project Folder
-
-Create a folder named `{uid}-2b-{firstName}-{lastName}` and navigate into it before following the steps below.
-
-### Create Next.js App
-
-To create the 2b experiment project:
+1. **Install Dependencies**
 
 ```bash
-pnpm create next-app@latest .
+pnpm install
 ```
 
-### Install Shadcn Components
-
-To install the required Shadcn UI components (card, button, and select):
+2. **Install Shadcn Components** (if not already installed)
 
 ```bash
-pnpm dlx shadcn@latest add card button select
+pnpm dlx shadcn@latest add card button select badge
 ```
+
+## Running the Project
+
+To start the development server:
+
+```bash
+pnpm dev
+```
+
+The application will be available at [http://localhost:3000](http://localhost:3000)
 
 ## Code Explanation
 
