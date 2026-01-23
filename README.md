@@ -84,7 +84,7 @@ The main application page with product filtering and sorting:
 
 ### Technology Stack
 
-- **Framework**: Next.js 14+ (App Router with "use client")
+- **Framework**: Next.js 16+ (App Router with "use client")
 - **UI Library**: Shadcn UI
 - **Styling**: Tailwind CSS
 - **Language**: TypeScript
