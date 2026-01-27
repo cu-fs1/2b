@@ -1,5 +1,19 @@
 # 2b Project
 
+## Installation
+
+1. **Install Dependencies**
+
+```bash
+pnpm install
+```
+
+2. **Install Shadcn Components** (if not already installed)
+
+```bash
+pnpm dlx shadcn@latest add card button select badge
+```
+
 ## Project Structure
 
 ```
@@ -29,20 +43,6 @@
 ├── postcss.config.mjs       # PostCSS configuration
 ├── tsconfig.json            # TypeScript configuration
 └── README.md                # Project documentation
-```
-
-## Installation
-
-1. **Install Dependencies**
-
-```bash
-pnpm install
-```
-
-2. **Install Shadcn Components** (if not already installed)
-
-```bash
-pnpm dlx shadcn@latest add card button select badge
 ```
 
 ## Running the Project
