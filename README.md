@@ -55,6 +55,12 @@ pnpm dev
 
 The application will be available at [http://localhost:3000](http://localhost:3000)
 
+## Next Steps
+
+Students should first follow these steps (Installation and Running) and then do this one:
+
+- [Experiment 2](https://github.com/cu-fs1#experiment-2)
+
 ## Code Explanation
 
 ### 1. `types/index.ts`
@@ -134,4 +140,3 @@ The main application page with product filtering and sorting:
 - **Styling**: Tailwind CSS
 - **Language**: TypeScript
 - **State Management**: React useState hooks
-
