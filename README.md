@@ -1,5 +1,11 @@
 # 2b Project
 
+## Starting the Project
+
+Students should first follow the experiment guide to proceed with the project
+
+- [Experiment 2 Guide](https://github.com/cu-fs1#experiment-2)
+
 ## Installation
 
 1. **Install Dependencies**
@@ -55,11 +61,6 @@ pnpm dev
 
 The application will be available at [http://localhost:3000](http://localhost:3000)
 
-## Next Steps
-
-Students should first follow these steps (Installation and Running) and then do this one:
-
-- [Experiment 2](https://github.com/cu-fs1#experiment-2)
 
 ## Code Explanation
 
