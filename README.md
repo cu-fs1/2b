@@ -8,13 +8,7 @@ Students should first follow the experiment guide to proceed with the project
 
 ## Installation
 
-1. **Install Dependencies**
-
-```bash
-pnpm install
-```
-
-2. **Install Shadcn Components** (if not already installed)
+1. **Install Shadcn Components** (if not already installed)
 
 ```bash
 pnpm dlx shadcn@latest add card button select badge
